@@ -1,0 +1,12 @@
+<%= form_with model: @blog_post do |form| %>
+  <div>
+  <%= form.label :title %>
+  <%= form.text_filed :body %>
+  </div>
+  <div>
+  <%= form.label :body %>
+  <%= form.text_area :body %>
+  </div> 
+
+  <%= form.button %>
+  <% end %>
